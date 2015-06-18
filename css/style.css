@@ -425,3 +425,56 @@ td,
 th {
   padding: 0;
 }
+
+body {
+    background-color: LightGray;
+}
+
+
+
+
+nav.main-nav {
+  background-color: #174279;
+  height: 5rem;
+}
+div.content {
+  width: 60%;
+  margin: auto auto;
+  height: 5rem;
+}
+
+ul.links {
+  padding-top: 1rem;
+  width: 50%;
+  float: right;
+}
+
+
+.links li {
+  float: right;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif; 
+  list-style: none;
+  
+}
+
+.links li a {
+  padding: 1rem;
+  color: #C3F0EB;
+  border-right: 1px solid white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.links li:first-child a {
+  border: none;
+}
+
+img {
+  border: 0;
+  margin-top: 1rem;
+}
+
+
+}
