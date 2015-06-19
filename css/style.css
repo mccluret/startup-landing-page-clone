@@ -511,7 +511,33 @@ h2 {
   color: #C3F0EB;
 }
 
+
 .button-container {
-  width: 50%;
-  float:right;
+  float: center;
+  text-align: right;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20rem;
+}
+
+button {
+  font-size: 1.5rem;
+  width: 7.2rem;
+  padding-bottom: .3rem;
+  border-radius: .5rem;
+  border-color: transparent;
+  background-color: #959494;
+  text-shadow: none;
+  border-style: none;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+img {
+  border: 0;
+  margin-top: .2em;
+  margin-bottom: 0;
+  float: center;
+  position: relative;
+  display: block;
 }
