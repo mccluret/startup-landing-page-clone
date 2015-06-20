@@ -430,10 +430,14 @@ th {
 
 
 
-
 nav.main-nav {
-  
+  background-color: rgba(211, 211, 211, 0.9);
+  height: 4rem;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
+
 div.content {
   width: 80%;
   margin: auto auto;
@@ -441,9 +445,10 @@ div.content {
 }
 
 ul.links {
-  padding-top: 4rem;
+  padding-top: .2rem;
   width: 50%;
   float: right;
+  margin-right: 8rem;
 }
 
 
@@ -457,7 +462,7 @@ ul.links {
 
 .links li a {
   padding: 1rem;
-  color: #C3F0EB;
+  color: #000000;
   border-right: 1px solid white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
@@ -474,18 +479,18 @@ img {
 }
 
 .introduction {
-  background-image: url(http://i374.photobucket.com/albums/oo181/tymcclure13/wakeboarding_zpsd9aqjjll.jpg);
+  background-image: url(http://i374.photobucket.com/albums/oo181/tymcclure13/7149996d-2817-4c0b-97df-e60cbf1993df_zpsxpkemrd6.png);
   background-repeat: no-repeat;
-  height: 45rem;
+  height: 46rem;
   background-size: cover;
 }
 
 h1 {
-  margin-top: 4.4rem;
+  margin-top: 8.4rem;
   margin-bottom: 0rem;
   display: inline-block;
-  margin-left: 3rem;
-  font-size: 4rem;
+  margin-left: -1rem;
+  font-size: 2.3rem;
   border-bottom: .7rem solid black;
   padding-left: 4rem;
   color: #C3F0EB;
@@ -504,9 +509,9 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  margin-left: 18.8rem;
-  font-size: 4rem;
+.headerspan {
+  margin-left: 10.8rem;
+  font-size: 2.3rem;
   margin-top: 0;
   color: #C3F0EB;
 }
@@ -517,7 +522,7 @@ h2 {
   text-align: right;
   margin: 0 auto;
   width: 80%;
-  margin-top: 20rem;
+  margin-top: 22rem;
 }
 
 button {
@@ -540,4 +545,68 @@ img {
   float: center;
   position: relative;
   display: block;
+}
+
+img.logo {
+  border: 0;
+  margin-top: 6rem;
+  margin-left: 14rem;
+  float: center;
+  display: block;
+  float: left;
+}
+
+.middle-images {
+  display: table;
+  margin: 0 auto;
+}
+
+section.middle-section {
+  background-color: rgba(211, 211, 211, 0.3);
+  padding-top: 0;
+  padding-bottom: 10rem;
+}
+
+.middle-content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+h2.slogan {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  padding-top: 5rem;
+  margin-top: 0;
+}
+
+span.header-spacing {
+  margin-left: 3rem;
+}
+
+li.pics {
+  display: inline-block;
+  margin: 2rem 4rem;
+  float: left;
+}
+
+li.pics.pic {
+  margin-top: 5.5rem;
+}
+
+
+a:hover {
+  background-color: black;
+  border-radius: .4rem;
+  color: #C3F0EB;
+}
+
+img.image-border {
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.caption {
+  text-align: center;
+  font-size: 1.5rem;
 }
