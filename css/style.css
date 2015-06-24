@@ -473,6 +473,17 @@ ul.links {
   text-decoration: none;
 }
 
+.links li a:hover {
+  padding: 1rem;
+  color: rgba(211, 211, 211, 0.9);
+  border-right: 1px solid white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: .5rem;
+}
+
 .links li:first-child a {
   border: none;
 }
@@ -495,7 +506,6 @@ h1 {
   display: inline-block;
   margin-left: -1rem;
   font-size: 2.3rem;
-  border-bottom: .7rem solid black;
   padding-left: 4rem;
   color: #C3F0EB;
 }
@@ -526,7 +536,7 @@ h1 {
   text-align: right;
   margin: 0 auto;
   width: 80%;
-  margin-top: 22rem;
+  margin-top: 25rem;
 }
 
 button {
@@ -599,12 +609,6 @@ li.pics.pic {
 }
 
 
-a:hover {
-  background-color: black;
-  border-radius: .4rem;
-  color: #C3F0EB;
-}
-
 img.image-border {
   border: 1px solid black;
   border-radius: 1rem;
@@ -623,7 +627,7 @@ section.footer {
   background-color: rgba(211, 211, 211, 0.9);
   margin-top: 0;
   padding-top: 0;
-  height: 10rem;
+  height: 14rem;
 }
 
 h2.footer-header {
@@ -632,4 +636,14 @@ h2.footer-header {
   text-align: center;
   font-size: 2.3rem;
   margin-left: 1.5rem;
+}
+
+.icon-content {
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+  display: inline-block;
+  margin: 2rem;
 }
