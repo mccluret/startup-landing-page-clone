@@ -473,6 +473,12 @@ ul.links {
   text-decoration: none;
 }
 
+.links li a:hover {
+  background-color: black;
+  border-radius: .4rem;
+  color: #C3F0EB;
+}
+
 .links li:first-child a {
   border: none;
 }
@@ -495,7 +501,7 @@ h1 {
   display: inline-block;
   margin-left: -1rem;
   font-size: 2.3rem;
-  border-bottom: .7rem solid black;
+  /*border-bottom: .7rem solid black; */
   padding-left: 4rem;
   color: #C3F0EB;
 }
@@ -598,12 +604,6 @@ li.pics.pic {
   margin-top: 5.5rem;
 }
 
-
-a:hover {
-  background-color: black;
-  border-radius: .4rem;
-  color: #C3F0EB;
-}
 
 img.image-border {
   border: 1px solid black;
