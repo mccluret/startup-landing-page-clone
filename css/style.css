@@ -476,7 +476,7 @@ ul.links {
 .links li a:hover {
   background-color: black;
   border-radius: .4rem;
-  color: #C3F0EB;
+  color: rgba(211, 211, 211, 0.9);
 }
 
 .links li:first-child a {
@@ -623,7 +623,7 @@ section.footer {
   background-color: rgba(211, 211, 211, 0.9);
   margin-top: 0;
   padding-top: 0;
-  height: 10rem;
+  height: 14rem;
 }
 
 h2.footer-header {
@@ -632,4 +632,17 @@ h2.footer-header {
   text-align: center;
   font-size: 2.3rem;
   margin-left: 1.5rem;
+}
+
+.icon-content {
+  text-align: center;
+}
+.icons {
+  text-align: center;
+  display: inline-block;
+  margin: 2rem;
+}
+
+i.fa.fa-youtube.fa-3x.fa-spin {
+  color: red;
 }
